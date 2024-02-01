@@ -1,2 +1,18 @@
 // prendo bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+main{
+    article.card{
+        width: calc((100% / 3) - 2rem);
+        margin-right: 1rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: bisque;
+    }
+    p{
+        margin-bottom: 0.5rem;
+    }
+    span{
+        font-weight: bold;
+    }
+}
